@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
 RUN apk update \
     apk add --no-cache git ca-certificates wget build-base
 
-RUN git submodule update --init \
-    && cd pikchr && make
+#RUN git submodule update --init \
+#    && cd pikchr && make
 
 
