@@ -4,10 +4,28 @@
 ARG VARIANT="3.14"
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
 
+#RUN apk update \
+#    && apk add --no-cache git ca-certificates wget build-base
+
+# Add alpine v3.6 main repo to get mongo db
+RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/main' >> /etc/apk/repositories
+RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/community' >> /etc/apk/repositories
+
 RUN apk update \
-    apk add --no-cache git ca-certificates wget build-base
+    && apk add --no-cache \
+    nodejs \
+    npm \
+    git \
+    wget \
+    build-base
+#    python3 \
+#    py3-pip \
+#    mongodb=3.4.4-r0
+
+#RUN npm install -g bower
+RUN npm install -g markdown-it \
+                   gulp-cli
+#RUN npm install -g nodemon
 
 #RUN git submodule update --init \
 #    && cd pikchr && make
-
-
