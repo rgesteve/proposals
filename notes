@@ -1,0 +1,53 @@
+https://github.com/microsoft/SuperScaler
+https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu
+https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+https://blog.kubecost.com/blog/nvidia-gpu-usage/
+https://developer.nvidia.com/blog/getting-kubernetes-ready-for-the-a100-gpu-with-multi-instance-gpu/
+https://www.ntweekly.com/2021/02/14/configure-cpu-and-memory-for-kubernetes-pods/
+https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/
+https://github.com/kubernetes/community/blob/master/contributors/design-proposals/resource-management/device-plugin.md
+
+https://android-developers.googleblog.com/2020/11/android-neural-networks-api-13.html
+https://www.tensorflow.org/lite/performance/nnapi?hl=da
+https://www.arxiv-vanity.com/papers/2106.08962/
+
+https://github.com/Microsoft/nni -- An open source AutoML toolkit for
+automate machine learning lifecycle, including feature engineering,
+neural architecture search, model compression and hyper-parameter
+tuning. https://nni.readthedocs.io
+
+https://github.com/mozilla/DeepSpeech/issues/2270 -- enabling TFLite delegates: NNAPI, OpenGL, CoreML, Hexagon
+
+https://developer.android.google.cn/ndk/reference/group/neural-networks?hl=zh-tw
+
+https://docs.microsoft.com/en-us/previous-versions/azure/iot-accelerators/iot-accelerators-remote-monitoring-sample-walkthrough
+https://github.com/madeden/blogposts/blob/3f34e64768a91db6eec0633eb8f7378fa900f66c/k8s-autoscaling/src/manifest-tensorflow-serving-gpu.yaml
+https://docs.microsoft.com/en-us/azure/aks/developer-best-practices-resource-management
+https://www.youtube.com/watch?v=knHwdgCVk3s -- hands-On Kubernetes - Resource Requests and Limits
+
+https://stackoverflow.com/questions/53149806/kubernetes-understanding-resource-requests-limits-and-scheduling
+https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/
+https://blog.kubecost.com/blog/requests-and-limits/
+https://mohamed-ahmed.medium.com/kubernetes-resources-requests-and-limits-101-b90176634669
+https://sysdig.com/blog/kubernetes-limits-requests/
+https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-resource-requests-and-limits
+https://medium.com/the-programmer/handling-resource-requests-limits-in-kubernetes-53ea8a68a550
+https://partners-intl.aliyun.com/help/doc-detail/197267.htm -- Use resource-controller to dynamically modify the upper limit of resources for a pod
+https://medium.com/spectro-cloud/gpu-in-kubernetes-land-6978c089b3b7
+https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+
+https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+
+https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/#deploying-amd-gpu-device-plugin
+   https://github.com/RadeonOpenCompute/k8s-device-plugin
+
+https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/#deploying-nvidia-gpu-device-plugin
+   https://github.com/NVIDIA/k8s-device-plugin
+
+https://medium.com/geekculture/developing-on-kubernetes-the-inner-outer-loop-6957f9597f7a
+
+https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+https://github.com/intel/intel-device-plugins-for-kubernetes/blob/b75b00e622fb8a901a7355ab6447b78ba46bd721/demo/intelgpu-job.yaml
