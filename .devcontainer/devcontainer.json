@@ -9,7 +9,9 @@
 	},
 	
 	// Set *default* container specific settings.json values on container create. 
-	"settings": {},
+	"settings": {
+		"terminal.integrated.gpuAcceleration": "off"
+	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	// Note that some extensions may not work in Alpine Linux. See https://aka.ms/vscode-remote/linux.
