@@ -13,18 +13,19 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/community' >> /etc/apk/repos
 
 RUN apk update \
     && apk add --no-cache \
-    nodejs \
-    npm \
+#    nodejs \
+#    npm \
     git \
     wget \
-    build-base
+#    build-base \
 #    python3 \
 #    py3-pip \
+    markdown
 #    mongodb=3.4.4-r0
 
 #RUN npm install -g bower
-RUN npm install -g markdown-it \
-                   gulp-cli
+#RUN npm install -g markdown-it \
+#                   gulp-cli
 #RUN npm install -g nodemon
 
 #RUN git submodule update --init \
