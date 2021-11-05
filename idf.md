@@ -1,9 +1,15 @@
-# 
+# Deploy configuration
 ## 1. TITLE OF THE INVENTION
+
+System and method to incorporate deploy information into the build pipeline
 
 ![Alt text here](diagram.svg)
 
 ## 2. NAMES OF THE INVENTORS
+
+* Krishna Bhuyan
+* Rodolfo Gabriel Esteves
+
 ## 3. TECHNOLOGY BACKGROUND
 
 ### 3.1 Problem Definition - What technical problem did you solve?
