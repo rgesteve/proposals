@@ -17,10 +17,11 @@ RUN apk update \
 #    npm \
     git \
     wget \
-#    build-base \
+    build-base \
 #    python3 \
 #    py3-pip \
     markdown
+#    pandoc
 #    mongodb=3.4.4-r0
 
 #RUN npm install -g bower
