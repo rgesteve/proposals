@@ -1,5 +1,8 @@
 # 
 ## 1. TITLE OF THE INVENTION
+
+![Alt text here](diagram.svg)
+
 ## 2. NAMES OF THE INVENTORS
 ## 3. TECHNOLOGY BACKGROUND
 
