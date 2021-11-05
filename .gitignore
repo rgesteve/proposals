@@ -1,4 +1,4 @@
 pikchr/**/*
-out/**/*
+build/**/*
 *.svg
 
