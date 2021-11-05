@@ -1,3 +1,6 @@
 [submodule "pikchr"]
 	path = pikchr
 	url = https://github.com/drhsqlite/pikchr.git
+[submodule "htmldoc"]
+	path = htmldoc
+	url = https://github.com/michaelrsweet/htmldoc.git

@@ -20,7 +20,13 @@ RUN apk update \
     build-base \
 #    python3 \
 #    py3-pip \
-    markdown
+    markdown \
+#    wkhtmltopdf
+    gnutls-dev \
+    zlib-dev \
+    jpeg-dev \
+    libpng-dev \
+    pkgconf
 #    pandoc
 #    mongodb=3.4.4-r0
 
